@@ -7,7 +7,7 @@
  *
  */
 public class ShellSort {
-    static int count = 10;
+    static int count = 30;  //排序数组的大小
     static long[] longs = new long[count];
     private void ShellSort_(){
         int step = count/2;
